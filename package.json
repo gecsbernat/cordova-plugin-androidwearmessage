@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "name": "cordova-plugin-androidwearmessage",
+  "cordova_name": "AndroidWearMessage",
+  "description": "",
+  "license": "",
+  "repo": "",
+  "issue": "",
+  "keywords": [],
+  "platforms": [
+    "android"
+  ],
+  "engines": {
+    "name": "cordova",
+    "version": ">=3.5.0"
+  }
+}
