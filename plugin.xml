@@ -1,26 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin 
-id="cordova-plugin-androidwearmessage" 
-version="1.0.0" 
-xmlns="http://apache.org/cordova/ns/plugins/1.0" 
-xmlns:android="http://schemas.android.com/apk/res/android">
-
+<plugin id="cordova-plugin-androidwearmessage" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
   <name>AndroidWearMessage</name>
-  <repo></repo>
-
+  <repo>https://github.com/gecsbernat/cordova-plugin-androidwearmessage</repo>
   <js-module name="AndroidWearMessage" src="www/AndroidWearMessage.js">
-    <clobbers target="AndroidWearMessage" />
+    <clobbers target="AndroidWearMessage"/>
   </js-module>
-
   <platform name="android">
     <config-file parent="/*" target="res/xml/config.xml">
       <feature name="AndroidWearMessage">
-        <param name="android-package" value="cordova.plugin.androidwearmessage.AndroidWearMessage" />
+        <param name="android-package" value="cordova.plugin.androidwearmessage.AndroidWearMessage"/>
       </feature>
     </config-file>
     <source-file src="src/android/AndroidWearMessage.java" target-dir="src/cordova/plugin/androidwearmessage" />
     <source-file src="src/android/wear.xml" target-dir="res/values" />
-	  <framework custom="true" src="src/android/gradle.gradle" type="gradleReference" />	
+    <framework custom="true" src="src/android/gradle.gradle" type="gradleReference"/>	
   </platform>
-  
 </plugin>

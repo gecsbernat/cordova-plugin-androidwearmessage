@@ -2,16 +2,22 @@
   "version": "1.0.0",
   "name": "cordova-plugin-androidwearmessage",
   "cordova_name": "AndroidWearMessage",
-  "description": "",
-  "license": "",
-  "repo": "",
-  "issue": "",
-  "keywords": [],
+  "description": "This plugin helps you communicate between Ionic/Cordova Android App and Android Wear OS App",
+  "license": "MIT",
+  "repo": "https://github.com/gecsbernat/cordova-plugin-androidwearmessage",
+  "issue": "https://github.com/gecsbernat/cordova-plugin-androidwearmessage/issues",
+  "keywords": [
+    "android",
+    "cordova",
+    "ionic",
+    "cordova-plugin",
+    "android-wear"
+  ],
   "platforms": [
     "android"
   ],
   "engines": {
     "name": "cordova",
-    "version": ">=3.5.0"
+    "version": ">=9.0.0"
   }
 }
