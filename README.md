@@ -4,7 +4,7 @@ This plugin helps you communicate between Ionic/Cordova Android App and Android 
 
 ## Install:
 ```bash
-$ cordova plugin add https://github.com/gecsbernat/cordova-plugin-androidwearmessage.git
+$ ionic cordova plugin add https://github.com/gecsbernat/cordova-plugin-androidwearmessage.git
 ```
 
 ## Use:
